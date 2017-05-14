@@ -5,10 +5,9 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <title>Adventure Game — Keep Talking and Nobody Explodes Module</title>
     <meta content="initial-scale=1" name="viewport">
-    <link rel='stylesheet' type='text/css' href='css/font.css'>
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <script src='js/highlighter.js'></script>
     <style>
         li { margin-bottom: .5em; }
         ul { margin-bottom: 3em; }
@@ -33,15 +32,15 @@
                     <p class="flavour-text">
 			Dit lijkt op een vreemde interface voor een ouderwets tekstgebaseerd avontuurspel. Alle inventaris management puzzels die je hebt leren kennen en waarvan je bent gaan houden, maar dan zonder de verhaallijn.
                     <ul>
-			<li>The drie schermen tonen de vijand die voor je staat, een lijst met statistieken over je karakter en de wereld waarin die zich bevindt, en een lijst met objecten in je inventaris.
+			<li>De drie schermen tonen de vijand die voor je staat, een lijst met statistieken over je karakter en de wereld waarin die zich bevindt, en een lijst met objecten in je inventaris.
 			<li>In de inventaris zitten drie wapens, plus vijf willekeurige voorwerpen.
-			<li>Jij moet beslissen welke voorwerpen te gebruiken ter voorbereiding op het gevecht, en welk wapen ter hand te nemen.
+			<li>Je moet beslissen welke voorwerpen te gebruiken ter voorbereiding op het gevecht, en welk wapen ter hand te nemen.
 			<li>Gebruik de pijlen naar links en rechts om door de statistieken en inventaris te bladeren.
 			<li>Om een voorwerp of wapen te gebruiken, druk "USE" als het weergegeven is in het display.
-			<li>Gebruik de voorwerptabel hieronder om te bepalen welke items wel of niet gebruikt dienen te worden.
-			<li>Voorwerpen kunnen in willekeurige volgorde gebruikt worden, maar moeten wel gebruikt worden voordat je een wapen gebruikt om je vijand aan te vallen.
+			<li>Gebruik de voorwerptabel hieronder om te bepalen welke voorwerpen wel of niet gebruikt dienen te worden.
+			<li>Voorwerpen kunnen in willekeurige volgorde gebruikt worden, maar moeten wel gebruikt worden voordat je een wapen ter hand neemt om je vijand aan te vallen.
 			<li>Gebruik de wapentabel en de tabel met statistieken over de vijand om te bepalen welk wapen het meest geschikt is om de vijand mee aan te vallen.
-			<li>Vergelijk voor elk wapen de passende statistiek van de speler (STR, DEX of INT), plus de eventuele bonus, met de statistiek van de vijand.
+			<li>Vergelijk voor elk wapen de passende statistiek van de speler (STR, DEX of INT), plus de eventuele bonus, met dezelfde statistiek van de vijand.
 			<li>Om de vijand zo efficient mogelijk aan te vallen, gebruik je het wapen met het gootste statistiek voordeel (of het kleinste nadeel).
 			<li>Als twee wapens hetzelfde voordeel hebben, maakt het niet uit welke je gebruikt.
                     </ul>
@@ -53,15 +52,15 @@
                         </tr>
                         <tr>
                             <td>5 STR
-                            <td>Sterkte (STR) van de speler in het gevecht
+                            <td>Sterkte van de speler in het gevecht
                         </tr>
                         <tr>
                             <td>5 DEX
-                            <td>Behendigheid (DEX) van de speler in het gevecht
+                            <td>Behendigheid van de speler in het gevecht
                         </tr>
                         <tr>
                             <td>5 INT
-                            <td>Intelligentie (INT) van de speler in het gevecht
+                            <td>Intelligentie van de speler in het gevecht
                         </tr>
                         <tr>
                             <td>5’ 5”
@@ -73,7 +72,7 @@
                         </tr>
                         <tr>
                             <td>9.8 m/s²
-                            <td>Aantrekkingskracht van de zwaartekracht, in meter per seconde kwadraat
+                            <td>Zwaartekracht, in meter per seconde kwadraat
                         </tr>
                         <tr>
                             <td>101 kPa
@@ -82,7 +81,7 @@
                     </table>
 
                 </div>
-                <div class="page-footer relative-footer">Page 1 of 2</div>
+                <div class="page-footer relative-footer">Page 1 of 3</div>
             </div>
             <div class="page page-bg-01">
                 <div class="page-header">
@@ -98,15 +97,15 @@
                         </tr>
                         <tr>
                             <td>Balloon
-                            <td>Zwaartekracht minder is dan 9.3 m/s² of de druk groter is dan 110 kPa, en als er niet met een Eagle gevochten wordt.
+                            <td>De zwaartekracht minder is dan 9.3 m/s² of de druk groter is dan 110 kPa, en er niet met een Eagle gevochten wordt.
                         </tr>
                         <tr>
                             <td>Battery
-                            <td>Er maximaal 1 batterij op de bom zit, en er met een vijand gevochten word die geen Golem of Wizard is
+                            <td>Er maximaal 1 batterij op de bom zit, en er met een vijand gevochten wordt die geen Golem of Wizard is.
                         </tr>
                         <tr>
                             <td>Bellows
-                            <td>Als er gevochten wordt met een Dragon of een Eagle, gebruik als de druk groter is dan 105 kPa. Als er met een andere vijand gevochten wordt, als de druk lager is dan 95 kPa
+                            <td>Als er gevochten wordt met een Dragon of een Eagle: gebruik als de druk groter is dan 105 kPa. Als er met een andere vijand gevochten wordt: gebruik als de druk lager is dan 95 kPa.
                         </tr>
                         <tr>
                             <td>Cheat code
@@ -114,11 +113,11 @@
                         </tr>
                         <tr>
                             <td>Crystal ball
-                            <td>INT groter is dan het laatste cijfer in het serienummer, en er niet met een Wizard gevochten wordt.
+                            <td>Je intelligentie (INT) groter is dan het laatste cijfer in het serienummer, en er niet met een Wizard gevochten wordt.
                         </tr>
                         <tr>
                             <td>Feather
-                            <td>DEX is groter dan ofwel STR ofwel INT.
+                            <td>Je behendigheid (DEX) groter is dan ofwel Sterkte (STR) ofwel Intelligentie (INT).
                         </tr>
                         <tr>
                             <td>Hard drive
@@ -134,7 +133,7 @@
                         </tr>
                         <tr>
                             <td>Potion
-                            <td>Altijd gebruiken, maar let op dat STR, DEX en INT kunnen wijzigen.
+                            <td>Altijd gebruiken, maar let op dat je Sterkte (STR), Behendigheid (DEX) en Intelligentie (INT) kunnen wijzigen.
                         </tr>
                         <tr>
                             <td>Small dog
@@ -154,14 +153,22 @@
                         </tr>
                         <tr>
                             <td>Ticket
-                            <td>De speler 4'6" of kleiner is, aantrekkingskracht minstens 9.2 m/s² en maximaal 10.4 m/s² is.
+                            <td>De speler 4'6" of kleiner is, zwaartekracht minstens 9.2 m/s² en maximaal 10.4 m/s² is.
                         </tr>
                         <tr>
                             <td>Trophy
-                            <td>STR is hoger dan het eerste cijfer van het serienummer, of als er met een Troll gevochten wordt.
+                            <td>Sterkte (STR) hoger is dan het eerste cijfer van het serienummer, of als er met een Troll gevochten wordt.
                         </tr>
                     </table>
-
+                </div>
+                <div class="page-footer relative-footer">Page 2 of 3</div>
+            </div>
+            <div class="page page-bg-01">
+                <div class="page-header">
+                    <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                    <span class="page-header-section-title">Adventure Game</span>
+                </div>
+                <div class="page-content">
                     <table class='enemies'>
                         <tr><th>Vijand      <th>STR     <th>DEX     <th>INT </tr>
                         <tr><td>Demon       <td>50      <td>50      <td>50  </tr>
@@ -183,9 +190,8 @@
                         <tr><td>Magic orb       <td>INT     <td>+0    </tr>
                         <tr><td>Grimoire        <td>INT     <td>+2    </tr>
                     </table>
-
                 </div>
-                <div class="page-footer relative-footer">Page 2 of 2</div>
+                <div class="page-footer relative-footer">Page 3 of 3</div>
             </div>
         </div>
     </div>
